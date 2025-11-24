@@ -11,5 +11,6 @@ jobs:
           java-version: '20'
           distribution: 'temurin'
       - name: Run package phase
+        working-directory: backend
         run: mvn clean package
 
